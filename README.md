@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# Nova Elvira | Personal Profile Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A two-page personal profile website built with Nuxt.js and Tailwind CSS.
 
-## Setup
+## Pages
+- Home (`app/pages/index.vue`): name, short intro, profile picture, navigation menu, and welcome message.
+- Profile (`app/pages/profile.vue`): personal information, educational background, skills and interests, and hobbies.
 
-Make sure to install dependencies:
+## Project Structure
+- `app/pages`: the two pages
+- `app/components`: navbar and profile card components
+- `app/layouts`: the default layout shared by both pages
+- `public`: static files such as the profile picture
 
-```bash
-# npm
-npm install
+## Screenshots
 
-# pnpm
-pnpm install
+### Home
+![Home page](screenshots/home.png)
 
-# yarn
-yarn install
+### Profile
+![Profile page](screenshots/profile.png)
 
-# bun
-bun install
-```
+### Folder Structure
+![Folder structure](screenshots/structure.png)
 
-## Development Server
+## Run Locally
+    npm install
+    npm run dev
 
-Start the development server on `http://localhost:3000`:
+Then open http://localhost:3000.
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Built With
+Nuxt.js, Vue, Tailwind CSS
